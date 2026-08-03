@@ -1,20 +1,27 @@
 
 .hero {
     background-color: rgb(212, 245, 245);
-    height: 171px ;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.two-column { 
-  position: relative; 
-  width: 100px;  /* Reduced container width */
-  height: 70px;  /* Reduced container height */
+.hero-text{
+    color: rgb(85, 67, 72);
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
 }
 
-.map-image {
-  position: absolute;
-  left: 0; 
-  top: 0;
-  width: 100px;  /* Matches container width */
-  height: 70px;  /* Matches container height */
-  object-fit: cover;
+.two-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
