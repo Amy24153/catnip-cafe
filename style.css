@@ -1,0 +1,20 @@
+
+.hero {
+    background-color: rgb(212, 245, 245);
+    height: 171px ;
+}
+
+.two-column { 
+  position: relative; 
+  width: 100px;  /* Reduced container width */
+  height: 70px;  /* Reduced container height */
+}
+
+.map-image {
+  position: absolute;
+  left: 0; 
+  top: 0;
+  width: 100px;  /* Matches container width */
+  height: 70px;  /* Matches container height */
+  object-fit: cover;
+}
