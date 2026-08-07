@@ -34,7 +34,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    /* ADD THESE LINES BELOW: */
     display: flex;
     justify-content: space-around; /* Spreads the 3 items evenly */
     align-items: center;           /* Centers them vertically */
@@ -46,4 +45,8 @@
     text-decoration: none;         /* Removes the link underline */
     font-family: "Libre Baskerville", serif;  
     font-size: 28px;               /* Text size */
+}
+
+.text{
+    font-size: 1.25em;
 }
