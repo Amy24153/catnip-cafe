@@ -40,7 +40,7 @@
 }
 
 /* ADD THIS NEW RULE FOR THE LINKS: */
-.info a {
+.info a { /* needs to a because if it isn't, it will become blue*/
     color: #4A3E44;               /* Text color */
     text-decoration: none;         /* Removes the link underline */
     font-family: "Libre Baskerville", serif;  
@@ -49,4 +49,20 @@
 
 .text{
     font-size: 1.25em;
+}
+
+.featured-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 80px; /* Offsets it slightly to the left of exact center */
+  width: 100%;
+}
+
+/* Image: Handles size and circular border */
+.featured-image img {
+  width: 400px;         /* Larger size */
+  height: 400px;        /* Matches width for a circle */
+  object-fit: cover;    /* Prevents stretching */
+  border-radius: 360px; /* Rounded corners */
 }
