@@ -51,7 +51,7 @@
     font-size: 1.25em;
 }
 
-.featured-image {
+.three-column-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@
 }
 
 /* Image: Handles size and circular border */
-.featured-image img {
+.three-column-img img {
   width: 400px;         /* Larger size */
   height: 400px;        /* Matches width for a circle */
   object-fit: cover;    /* Prevents stretching */
