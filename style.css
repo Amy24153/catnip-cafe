@@ -29,7 +29,7 @@
 
 .info {
     background-color: rgb(147, 183, 190);
-    height: 171px;
+    min-height: 171px; /* Changed from height: 171px so the image fits inside */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,18 +51,10 @@
     font-size: 1.25em;
 }
 
-.three-column-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 80px; /* Offsets it slightly to the left of exact center */
-  width: 100%;
-}
-
-/* Image: Handles size and circular border */
-.three-column-img img {
-  width: 400px;         /* Larger size */
-  height: 400px;        /* Matches width for a circle */
-  object-fit: cover;    /* Prevents stretching */
-  border-radius: 360px; /* Rounded corners */
+.events-img {
+    width: 250px;         /* Made larger as requested */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 360px;
+    margin-top: 10px;     /* Gives a little space below the "Events" text */
 }
