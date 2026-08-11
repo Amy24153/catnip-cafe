@@ -51,10 +51,18 @@
     font-size: 1.25em;
 }
 
+/* Positions the image under the left column (Events) */
+.events-container {
+    width: 33.33%;         /* Matches the "Events" column width */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;       /* Space below the header bar */
+}
+
+/* Styles only this image */
 .events-img {
-    width: 250px;         /* Made larger as requested */
+    width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 360px;
-    margin-top: 10px;     /* Gives a little space below the "Events" text */
 }
