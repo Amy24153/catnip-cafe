@@ -52,11 +52,15 @@
 }
 
 /* Styles only this image */
-.events-img {
+.three-column{
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 15px;
     margin-left: 50px;
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+} 
+
